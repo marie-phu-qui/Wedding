@@ -1,5 +1,5 @@
 #hero {
-    background-image: url("/images/Home.jpg");
+    background-image: url("/images/Home1.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -36,14 +36,27 @@ body {
     left: 16px;
     color: white;
 }
-
+/* Home Page Main Title */
 .centered {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: pink;
+    font-size: 4rem;
+    font-family: 
+}
+/* Home page subsite */
+.centered2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    font-size: 3rem;
 }
 
 h1 {
     font-family: H
 }
+
