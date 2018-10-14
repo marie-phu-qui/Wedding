@@ -40,7 +40,7 @@ class Rsvp extends React.Component{
             <div id="formPage" class="field">
              <form id="contact-form">       
             {/* Name Form */}
-            <label class="label">Name</label>
+            <label class="label">Your name:</label>
             <div class="name">
                  <div class="field">
                     <div class="control">
@@ -49,7 +49,7 @@ class Rsvp extends React.Component{
             </div>
         </div>
             {/* RSVP */}
-        <label class="label">Are you able to attend ?</label>
+        <label class="label">Are you able to attend?</label>
             <div class="yesnoo">
                  <div class="field">
                     <div class="control">
@@ -58,7 +58,7 @@ class Rsvp extends React.Component{
             </div>
         </div>
             {/* Plus one? */}
-            <label class="label">Any plus 1 ?</label>
+            <label class="label">Your plus one:</label>
             <div class="plusone">
                 <div class="field">
                     <div class="control">
@@ -67,14 +67,14 @@ class Rsvp extends React.Component{
             </div>
         </div>
             {/* Babies and small kids */}
-            <label class="label">Will there be any babies, toddlers, or children coming with you ? </label>
+            <label class="label">Children or small person to attend? </label>
             <div class="field">
         <div class="control">
         <input class="input is-primary" type="text" name="from_babies" placeholder="How many, age, etc"/>
         </div>
         </div>
             {/* Where will you be staying */}
-            <label class="label">Where will you be staying ?</label>
+            <label class="label">Where will you be staying?</label>
             <div class="location">
             <div class="field">
         <div class="control">
@@ -84,7 +84,7 @@ class Rsvp extends React.Component{
         </div>
         
             {/* Will you you be attending the bbq the next day */}
-        <label class="label">Attending the BBQ on Sunday 28 April ?</label>
+        <label class="label">Would you like to attend the BBQ on Sunday 28 April?</label>
             <div class="yesno">
             <div class="field">
         <div class="control">
@@ -93,14 +93,14 @@ class Rsvp extends React.Component{
         </div>
         </div>
             {/* Any Dietary req */}
-            <label class="label">If you have any dietary requirements, please provide details</label>
+            <label class="label">If you have any dietary requirements, please provide details:</label>
             <div class="field">
         <div class="control">
         <input class="input is-primary" type="text" name="from_diet"/>
         </div>
         </div>
             {/* Email*/}
-            <label class="label">Email</label>
+            <label class="label">Your email:</label>
             <div class="email">
             <div class="control has-icons-left has-icons-right">
             <input class="input is-danger" type="email" placeholder="Your_email@gmail.com"name="user_email"/>
@@ -113,7 +113,7 @@ class Rsvp extends React.Component{
             </div> 
             </div>
             {/* Message form */}
-            <label class="label">Message</label>
+            <label class="label">Message:</label>
             <div class="field">
         <div class="control">
         <textarea class="textarea is-primary" type="text" name="message_html" placeholder="Enter message here"></textarea>
