@@ -1,26 +1,37 @@
 import React from 'react'
+import {HashRouter as Router, Route, Link, Redirect} from 'react-router-dom'
+import ReactDOM from 'react-dom'
+import Thanks from './Thanks'
 
 class Rsvp extends React.Component{
     constructor(props){
     super(props)
         this.state ={}
         this.form = this.form.bind(this)
+        this.handleClick = this.handleClick.bind(this)
     }
 
     form(){
-
         document.getElementById('contact-form').addEventListener('submit', function(event) {
-            
             event.preventDefault();
             var form = this
             window.form = form
+            console.log('sending email')
             emailjs.sendForm('gmail', 'template_AGwbaEfV', form);
             
         })
-
         setTimeout(() => {
-            this.props.handleClick()
+            this.handleClick()
         }, 50);
+    }
+
+    handleClick(){
+        console.log('will redirect')
+        console.log('in func')
+        return(
+        // <Redirect to= "/information" />
+    ReactDOM.render(<Thanks exact path='/thanks'/> ,document.getElementById('app'))
+        )
     }
 
     render(){
@@ -114,8 +125,9 @@ class Rsvp extends React.Component{
         <div class="control">
         </div>
         </div>
-        
+            {/* <Link to='/information' > */}
             <input onClick={this.form} class="button is-link" type="submit" value="Send"/>
+            {/* </Link> */}
         </form>
         </div>
         </div>
