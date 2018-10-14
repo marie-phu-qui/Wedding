@@ -6,15 +6,18 @@
 
 
 ## User Stories
-* User can see main page  
-* User can click on link to redirect to pages
+* User can see main page
+* User can navigate pages easily
 * User can easily fill out form
 
 ### MVP
 * Functional links to pages
 * Pictures right size
-* From information is co
+* Form set up on the page - RSVP, plus 1, diet, etc
+* Responsive website
 
 ### Stretch
-* Map API showing location
+* Google Map API showing location of venue
 * User login page with password so that its private
+* Background Slide Show
+
