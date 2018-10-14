@@ -3,33 +3,20 @@ import React from 'react'
 import Home from './Home'
 import Rsvp from './Rsvp'
 import Information from './Information'
+import Thanks from './Thanks'
 
-// class App extends React.Component {
-//   constructor(props) {
-//     super(props)
-
-//   }
-
-//   render() {
-//     return (
-//       <div>
-//         <Home/>
-        
-//         {/* <Rsvp/> */}
-//       </div>
-//     )
-//   }
-// }
 
 const App = () => {
   return (
     <Router>
         <div>
         <Route exact path= "/" component={Home}/> 
-        <Route  path= "/rsvp" component={Rsvp}/> 
-        <Route path= "/information" component={Information}/>
-        </div>
+        <Route exact path= "/rsvp" component={Rsvp}/> 
+        <Route exact path= "/information" component={Information}/>
+        <Route exact path= "/thanks" component={Thanks}/>
         
+
+        </div>   
      </Router>
 
       

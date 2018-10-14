@@ -1,17 +1,35 @@
-#hero {
+body {
     background-image: url("/images/Home1.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
     top: 0;
     bottom: 0;
-    height: 100vh;
+    height: 125vh;
     z-index: -10;
 }
 
 body {
     margin: 0px;
 }
+.centered3{
+    margin-top: 10%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    font-size: 3rem;
+}
+#app {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.4);
+}
+#formPage {
+    padding: 20px;
+}
+
 
 .header {
     margin-bottom: 2em;
@@ -36,6 +54,24 @@ body {
     left: 16px;
     color: white;
 }
+.location {
+    max-width: 40%;
+}
+.yesnoo {
+    max-width: 25%;
+}
+.yesno {
+    max-width: 25%;
+}
+.plusone {
+    max-width: 80%;
+}
+.name {
+    max-width: 80%;
+}
+.email{
+    max-width: 50%;
+}
 /* Home Page Main Title */
 .centered {
     position: absolute;
@@ -44,7 +80,18 @@ body {
     transform: translate(-50%, -50%);
     color: pink;
     font-size: 4rem;
-    font-family: 
+    font-family: cursive;
+}
+
+.centerednav {
+    position: absolute;
+    top: 55vh;
+    left: 70vh;
+    /* transform: translate(-50%, -50%); */
+    color: blue;
+    font-size: 2rem;
+    font-family: cursive;
+
 }
 /* Home page subsite */
 .centered2 {
@@ -54,9 +101,11 @@ body {
     transform: translate(-50%, -50%);
     color: pink;
     font-size: 3rem;
+    font-family: cursive;
 }
+#contact-form {
+    margin-bottom: 100px;
+    letter-spacing: 1px;
 
-h1 {
-    font-family: H
 }
 
