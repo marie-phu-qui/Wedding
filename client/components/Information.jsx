@@ -3,7 +3,7 @@ import React from 'react'
 function Information () {
     return (
         <div>          
-            <h1 className="top-left">Information Page </h1>  
+            <h1 className="top-left">More information coming soon ! </h1>  
         </div>
      )
 }
