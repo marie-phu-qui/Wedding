@@ -12,6 +12,8 @@ function Home () {
     <div className="navbar-nav">
       <a className="nav-item nav-link " href="#rsvp">Rsvp</a>
       <a className="nav-item nav-link" href="#Information">Information</a>
+      <a className="nav-item nav-link" href="#Gifts">Gifts</a>
+      
     </div>
   </div>
   </div>

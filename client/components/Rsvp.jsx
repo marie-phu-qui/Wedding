@@ -28,10 +28,12 @@ class Rsvp extends React.Component{
     handleClick(){
         console.log('will redirect')
         console.log('in func')
-        return(
-        // <Redirect to= "/information" />
-    ReactDOM.render(<Thanks exact path='/thanks'/> ,document.getElementById('app'))
-        )
+        this.props.sentdata()
+
+    //     return(
+    //     // <Redirect to= "/information" />
+    // ReactDOM.render(<Thanks exact path='/thanks'/> ,document.getElementById('app'))
+    //     )
     }
 
     render(){
