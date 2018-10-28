@@ -25,11 +25,17 @@ body {
     width: 50%;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.4);
+    /* font-family: 'Tangerine', serif; */
 }
 #formPage {
     padding: 20px;
+    
 }
-
+.test {
+    padding: 7rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
 
 .header {
     margin-bottom: 2em;
@@ -44,7 +50,7 @@ body {
 .top-left {
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 25rem;
     color: white;
 }
 
@@ -75,22 +81,28 @@ body {
 /* Home Page Main Title */
 .centered {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 20rem;
+    left: 50rem;
     transform: translate(-50%, -50%);
-    color: pink;
-    font-size: 4rem;
-    font-family: cursive;
+    color: rgb(160, 44, 64);
+    font-size: 6rem;
+    font-family: 'Princess Sofia', cursive;
 }
+
+/* body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  } */
 
 .centerednav {
     position: absolute;
     top: 55vh;
-    left: 70vh;
+    left: 60vh;
     /* transform: translate(-50%, -50%); */
-    color: blue;
-    font-size: 2rem;
-    font-family: cursive;
+    font-size: 3rem;
+    font-family: 'Dosis', sans-serif;
+    
 
 }
 /* Home page subsite */
@@ -100,12 +112,31 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: pink;
-    font-size: 3rem;
-    font-family: cursive;
+    font-size: 5rem;
+    font-family: 'Princess Sofia', cursive;
 }
 #contact-form {
     margin-bottom: 100px;
     letter-spacing: 1px;
 
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
 }
 

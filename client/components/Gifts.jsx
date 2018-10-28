@@ -3,7 +3,7 @@ import React from 'react'
 function Gifts () {
     return (
         <div>          
-            <h1>Gifts page</h1>  
+            <h1 className="top-left">Gifts page</h1>  
         </div>
      )
 }
