@@ -35,6 +35,9 @@ body {
     padding: 7rem;
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
+    overflow: auto;
+    max-height: 900px;
+    max-width: 100%;
 }
 
 .header {
