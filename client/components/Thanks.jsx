@@ -7,13 +7,8 @@ function Thanks () {
     
     return (
         <div>           
-            <h1 class="centered3">Thank you for RSVP'ING. Please find more information on the information page.</h1>  
-            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <a className="nav-item nav-link" href='#' onClick={()=>{console.log('clicliclci'); return(Router.refresh()) }}>HOME</a>
-            <a className="nav-item nav-link" href="#Information">Information</a>
-            <a className="nav-item nav-link" href="#Gifts">Gifts</a>
-        </div>
-            
+            <h1 class="centered3">Thank you for RSVP'ING. Please find more information on the information page.</h1> 
+            <a className="nav-item nav-link" href='#' onClick={()=>{return(Router.refresh())}}>Home</a>
         </div>
      )
 }
