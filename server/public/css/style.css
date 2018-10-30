@@ -95,12 +95,6 @@ body {
     font-family: 'Princess Sofia', cursive;
 }
 
-/* body {
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa;
-  } */
-
 .centerednav {
     position: absolute;
     top: 30vw;
@@ -108,6 +102,11 @@ body {
     /* transform: translate(-50%, -50%); */
     font-size: 3vw;
     font-family: 'Dosis', sans-serif;
+}
+.navbar-nav {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
     
 
 }
