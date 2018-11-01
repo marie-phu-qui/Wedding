@@ -85,9 +85,12 @@ body {
     font-size: 6vw;
     font-family: 'Princess Sofia', cursive;
 }
+
+=======
 .mainsub{
     color: white;
 }
+
 
 .centerednav {
     position: absolute;
@@ -96,7 +99,27 @@ body {
     /* transform: translate(-50%, -50%); */
     font-size: 3vw;
     font-family: 'Dosis', sans-serif;
+
+}
+.navbar-nav {
+    font-family: 'Dosis', sans-serif;
     color: white;
+}
+    
+
+}
+/* Home page subsite */
+.centered2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    font-size: 5rem;
+    font-family: 'Princess Sofia', cursive;
+=======
+    color: white;
+
 }
 #contact-form {
     margin-bottom: 1vw;
