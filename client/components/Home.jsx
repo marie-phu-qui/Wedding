@@ -8,13 +8,13 @@ function Home () {
             
             <nav className="navbar-expand-lg navbar-light bg-light">
             <div className="centerednav">
-  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div className="navbar-nav">
-      <a className="nav-item nav-link " href="#rsvp">Rsvp</a>
-      <a className="nav-item nav-link" href="#Information">Information</a>
-      <a className="nav-item nav-link" href="#Gifts">Gifts</a>
+  <div className="collapse navbar-collapse">
+    {/* <div className=""> */}
+      <a className="mainsub" href="#rsvp">Rsvp</a>
+      <a className="mainsub" href="#Information">Information</a>
+      <a className="mainsub" href="#Gifts">Gifts</a>
         
-    </div>
+    {/* </div> */}
   </div>
   </div>
   
