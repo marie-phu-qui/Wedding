@@ -66,7 +66,59 @@ body {
     max-height: 750px;
     max-width: 100%;
 }
-
+.firstline {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.secondline {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.info5 {
+    margin-left: 15vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+.info6 {
+    margin-left: 18vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+.info7 {
+    margin-left: 19vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+.info8 {
+    margin-left: 15vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+.info9 {
+    margin-left: 15vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+    padding-bottom: 4vh;
+}
 .gifts {
     padding: 6vw;
     font-family: 'Dosis', sans-serif;
