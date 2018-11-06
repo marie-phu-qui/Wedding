@@ -7,7 +7,7 @@ function Thanks () {
     
     return (
         <div>           
-            <h1 class="centered3">Thank you for RSVP'ING. Please find more information on the information page.</h1> 
+            <h1 class="centered3">Thank you for your RSVP.  Check your inbox for a confirmation email.  Please check our information page as we will update it with more details as they become available.</h1> 
             <a className="nav-item nav-link" href='#' onClick={()=>{return(Router.refresh())}}>Home</a>
         </div>
      )
