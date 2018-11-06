@@ -20,6 +20,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 #app {
+    overflow: auto;    
+    max-height: 850px;
+    max-width: 100%;
+
     width: 55vw;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.4);
