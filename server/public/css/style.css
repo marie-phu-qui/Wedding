@@ -169,9 +169,9 @@ body {
     top: 20vw;
     left: 55vw;
     transform: translate(-50%, -50%);
-    color: rgb(255,223,0);
+    color: rgb(218, 206, 129);
     font-size: 6vw;
-    font-family: 'Princess Sofia', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .mainsub{
     color: white;
