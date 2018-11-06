@@ -10,39 +10,71 @@ body {
 }
 
 .centered3{
-    margin-top: 10%;
+    margin-top: 40vh;
     position: absolute;
     /* padding-top: 20vh; */
     margin-left: 25vw;
     transform: translate(-50%, -50%);
-    color:rgb(255,223,0);
-    font-size: 3rem;
+    color:rgb(218, 206, 129);
+    font-size: 2.5rem;
     font-family: 'Dosis', sans-serif;
 }
 #app {
-    width: 50vw;
+    width: 55vw;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.4);
 }
 #formPage {
     padding: 2vw;
 }
-.test {
-    padding: 4vw;
+ .infotitle {
+    font-family: 'Dosis', sans-serif;
+    margin-left: 14vw; 
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    font-size: 3vw;
+} 
+.info {
+    margin-left: 18vw;
     font-family: 'Dosis', sans-serif;
     font-size: 2vw;
     overflow: auto;
     max-height: 750px;
     max-width: 100%;
 }
-.infotitle {
+.info2 {
+    margin-left: 23vw;
     font-family: 'Dosis', sans-serif;
-    /* position: absolute; */
-    margin-left: 11vw; 
-    /* margin-top: 2rem; */
-    padding-top: 6vh;
-    font-size: 3vw;
-} 
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+.info3 {
+    margin-left: 20vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+.info4 {
+    margin-left: 3vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
+
+.gifts {
+    padding: 6vw;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2vw;
+    overflow: auto;
+    max-height: 750px;
+    max-width: 100%;
+}
   
 .top-left {
     position: absolute;
@@ -85,12 +117,10 @@ body {
     font-size: 6vw;
     font-family: 'Princess Sofia', cursive;
 }
-
-=======
 .mainsub{
     color: white;
+    
 }
-
 
 .centerednav {
     position: absolute;
@@ -99,27 +129,7 @@ body {
     /* transform: translate(-50%, -50%); */
     font-size: 3vw;
     font-family: 'Dosis', sans-serif;
-
-}
-.navbar-nav {
-    font-family: 'Dosis', sans-serif;
     color: white;
-}
-    
-
-}
-/* Home page subsite */
-.centered2 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: pink;
-    font-size: 5rem;
-    font-family: 'Princess Sofia', cursive;
-=======
-    color: white;
-
 }
 #contact-form {
     margin-bottom: 1vw;
