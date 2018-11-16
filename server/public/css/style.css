@@ -23,7 +23,6 @@ body {
     overflow: auto;    
     max-height: 850px;
     max-width: 100%;
-
     width: 55vw;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.4);
@@ -136,7 +135,12 @@ body {
     position: absolute;
     top: 2vh;
     left: 25rem;
-    color: white;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    /* margin-left: 14vw; 
+    padding-top: 1vh;
+    padding-bottom: 6vh; */
+    
 }
 
 .bottom-left {
@@ -173,9 +177,14 @@ body {
     font-size: 6vw;
     font-family: 'Dancing Script', cursive;
 }
-.mainsub{
-    color: white;
+#links{
+    display: flex;
+    justify-content: space-between;
     
+}
+
+#rsvp{
+    padding-left: 0;
 }
 
 .centerednav {
@@ -202,6 +211,7 @@ body {
 }
 .dark-pink-text {
     color: #AC003A;
+                                                                                                
 }
 .dark-amber-text {
     color: #ff6f00;
@@ -209,4 +219,15 @@ body {
 .dark-teal-text {
     color: #004d40;
 }
-
+.mainsub, .mainsub:focus, .mainsub:active, .mainsub:visted{
+    color: black;
+    letter-spacing: 3px;
+    padding-left: 10%;
+    text-decoration: none;
+}
+.nounder, .nounder:focus, .nounder:active, .nounder:visted{
+    text-decoration: none!important;
+}
+#thanks {
+    background-color: rgba(0,0,0,0)!important;
+}

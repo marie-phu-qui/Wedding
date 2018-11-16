@@ -22,18 +22,15 @@ class App extends Component {
   render() { 
     
     return ( <Router>
-      <div>
+      <React.Fragment>
 
         {sent == 1 ? <Route exact path= "/rsvp" component={Thanks}/> : <Route path="/rsvp" render={()=><Rsvp sentdata = {this.sentdata}/>}/> }
         
       <Route exact path= "/" component={Home}/> 
       <Route exact path= "/information" component={Information}/>
       <Route exact path= "/gifts" component={Gifts}/>
-      
-    
-      
 
-      </div>   
+      </React.Fragment>   
    </Router> );
   }
 }
