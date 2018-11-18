@@ -119,6 +119,13 @@ body {
 .fa-1x {
     font-size: 1.5rem;
 }
+.no-transition {
+    -webkit-transition: height 0;
+    -moz-transition: height 0;
+    -ms-transition: height 0;
+    -o-transition: height 0;
+    transition: height 0;
+  }
 .navbar-toggler.toggler-example {
     cursor: pointer;
 }
