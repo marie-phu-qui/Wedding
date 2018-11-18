@@ -1,3 +1,44 @@
+@media only screen and (max-width: 321) {
+    #app {
+        background-color: indianred;
+    }
+    #formPage .label{
+        color:white;
+    }
+    #formPage .field{
+        color:#0A38F5;
+    }
+    #content{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 769px) {
+    #app {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 80vw;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color : transparent;
+    }
+    #content{
+        width: 100vw;
+        height: 100vh;
+        font-size-adjust: inherit;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+    }
+}
 body {
     background-image: url("/images/Home1.jpg");
     background-size: cover;
@@ -186,7 +227,6 @@ body {
 #rsvp{
     padding-left: 0;
 }
-
 .centerednav {
     position: absolute;
     top: 30vw;
